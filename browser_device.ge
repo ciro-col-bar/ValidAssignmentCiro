@@ -1,0 +1,83 @@
+# Browser & Device Environment Matrix
+# Pre-Viz Engine v1.9.0
+# Test Plan: TP-PREVIZ-001
+
+---
+
+## DESKTOP BROWSERS
+
+| ID    | Browser          | Version        | OS              | Viewport      | Priority | Execution Set       |
+|-------|------------------|----------------|-----------------|---------------|----------|---------------------|
+| D-01  | Chrome           | Latest stable  | Windows 11      | 1280 x 800    | P1       | Minimum + Full      |
+| D-02  | Firefox          | Latest stable  | Windows 11      | 1280 x 800    | P2       | Full                |
+| D-03  | Edge (Chromium)  | Latest stable  | Windows 11      | 1280 x 800    | P2       | Full                |
+| D-04  | Safari           | Latest stable  | macOS Ventura   | 1280 x 800    | P2       | Minimum + Full      |
+| D-05  | Chrome           | Latest stable  | macOS Ventura   | 1280 x 800    | P3       | Full                |
+
+---
+
+## MOBILE & TABLET DEVICES
+
+| ID    | Device              | Browser          | OS / Version    | Viewport     | Priority | Execution Set  |
+|-------|---------------------|------------------|-----------------|--------------|----------|----------------|
+| M-01  | Pixel 5             | Chrome Mobile    | Android 13      | 393 x 851    | P2       | Minimum + Full |
+| M-02  | iPhone 14           | Safari (iOS)     | iOS 16          | 390 x 844    | P2       | Full           |
+| M-03  | iPad 10th Gen       | Safari (iPadOS)  | iPadOS 16       | 820 x 1180   | P3       | Full           |
+| M-04  | Samsung Galaxy S21  | Chrome Mobile    | Android 12      | 360 x 800    | P3       | Full           |
+
+---
+
+## EXECUTION SETS
+
+### MINIMUM (Go/No-Go Gate — P1 TCs only)
+  - D-01  Chrome / Windows 11
+  - D-04  Safari / macOS
+  - M-01  Chrome Mobile / Pixel 5
+
+### FULL (Complete matrix — all priorities)
+  - D-01 through D-05
+  - M-01 through M-04
+
+---
+
+## FEATURE × ENVIRONMENT COVERAGE
+
+| Feature                          | D-01 | D-02 | D-03 | D-04 | D-05 | M-01 | M-02 | M-03 | M-04 |
+|----------------------------------|------|------|------|------|------|------|------|------|------|
+| Studio — prompt input            |  ✓   |  ✓   |  ✓   |  ✓   |  ✓   |  ✓   |  ✓   |  ✓   |  ✓   |
+| Studio — video count (1–5)       |  ✓   |  ✓   |  ✓   |  ✓   |  ✓   |  ✓   |  ✓   |  -   |  -   |
+| Studio — duration select         |  ✓   |  ✓   |  ✓   |  ✓   |  ✓   |  ✓   |  ✓   |  ✓   |  ✓   |
+| Studio — aspect ratio select     |  ✓   |  ✓   |  ✓   |  ✓   |  ✓   |  ✓   |  ✓   |  ✓   |  ✓   |
+| Studio — high quality toggle     |  ✓   |  ✓   |  ✓   |  ✓   |  ✓   |  ✓   |  ✓   |  -   |  -   |
+| Stock Footage — script input     |  ✓   |  ✓   |  ✓   |  ✓   |  ✓   |  ✓   |  ✓   |  ✓   |  -   |
+| Stock Footage — parse script     |  ✓   |  ✓   |  ✓   |  ✓   |  ✓   |  ✓   |  ✓   |  -   |  -   |
+| History — Your Videos (cookie)   |  ✓   |  ✓   |  ✓   |  ✓   |  ✓   |  ✓   |  ✓   |  -   |  -   |
+| History — All Videos             |  ✓   |  ✓   |  ✓   |  ✓   |  ✓   |  ✓   |  ✓   |  ✓   |  ✓   |
+| History — refresh                |  ✓   |  ✓   |  ✓   |  ✓   |  ✓   |  -   |  -   |  -   |  -   |
+| Navigation — header links        |  ✓   |  ✓   |  ✓   |  ✓   |  ✓   |  ✓   |  ✓   |  ✓   |  ✓   |
+| Cookie persistence               |  ✓   |  ✓   |  ✓   |  ✓   |  -   |  ✓   |  ✓   |  -   |  -   |
+
+  ✓ = In scope for this env     - = Out of scope / not applicable
+
+---
+
+## KNOWN ENVIRONMENT NOTES
+
+  D-04  Safari / macOS
+        - SameSite=Lax cookie policy differs from Chromium; validate "Your Videos" scoping carefully
+        - Test cookie persistence explicitly (TC-H06, TC-H07)
+
+  D-02  Firefox / Windows 11
+        - Enhanced Tracking Protection (ETP) may block or partition cookies by default
+        - Disable ETP for the test domain or document behaviour difference
+
+  M-02  iPhone 14 / Safari iOS
+        - iOS WebKit enforces ITP (Intelligent Tracking Prevention) — cookies may expire in 7 days
+        - Validate that UUID cookie survives a 24h gap between sessions
+
+  M-01  Pixel 5 / Chrome Android
+        - Portrait viewport is the default; validate responsive layout of form controls (selects, toggles)
+
+  M-03  iPad / Safari iPadOS
+        - Test in both Portrait (820x1180) and Landscape (1180x820) orientations
+        - Focus: layout integrity of two-column generation settings panels

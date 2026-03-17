@@ -1,0 +1,39 @@
+{
+  "name": "previz-automation",
+  "version": "1.0.0",
+  "description": "Playwright test automation suite for Pre-Viz Engine v1.9.0",
+  "type": "module",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "test": "playwright test",
+    "test:smoke": "playwright test --grep @smoke",
+    "test:p1": "playwright test --grep @P1",
+    "test:studio": "playwright test tests/studio/",
+    "test:stockfootage": "playwright test tests/stockFootage/",
+    "test:history": "playwright test tests/history/",
+    "test:navigation": "playwright test tests/navigation/",
+    "test:chromium": "playwright test --project=chromium",
+    "test:firefox": "playwright test --project=firefox",
+    "test:webkit": "playwright test --project=webkit",
+    "test:mobile": "playwright test --project=mobile-chrome --project=mobile-safari",
+    "test:ci": "cross-env CI=true playwright test --forbid-only",
+    "report": "allure generate reports/allure-results --clean -o reports/allure-report && allure open reports/allure-report",
+    "report:playwright": "playwright show-report reports/playwright-report",
+    "audit": "npm audit --audit-level=high",
+    "lint": "eslint tests/ pages/ utils/ fixtures/",
+    "format": "prettier --write tests/ pages/ utils/ fixtures/ config/"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@eslint/js": "9.25.1",
+    "@faker-js/faker": "10.3.0",
+    "@playwright/test": "1.58.2",
+    "allure-playwright": "3.6.0",
+    "cross-env": "10.1.0",
+    "dotenv": "17.3.1",
+    "eslint": "10.0.3",
+    "prettier": "3.8.1"
+  }
+}

@@ -1,0 +1,135 @@
+name: Playwright Tests — Pre-Viz Engine
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  security-audit:
+    name: Security Audit
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: 'package.json'   # Reads "engines.node" from package.json
+          cache: 'npm'
+
+      - name: Install dependencies (lockfile-enforced)
+        run: npm ci
+
+      - name: Run npm security audit (fail on HIGH or CRITICAL)
+        run: npm audit --audit-level=high
+
+  smoke:
+    name: Smoke Tests (Chromium — @smoke)
+    runs-on: ubuntu-latest
+    needs: security-audit
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: 'package.json'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Cache Playwright browsers
+        id: playwright-cache
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-chromium-${{ runner.os }}-${{ hashFiles('package-lock.json') }}
+
+      - name: Install Playwright browsers
+        if: steps.playwright-cache.outputs.cache-hit != 'true'
+        run: npx playwright install --with-deps chromium
+
+      - name: Run smoke tests
+        run: npm run test:smoke -- --project=chromium
+        env:
+          BASE_URL: ${{ vars.BASE_URL || 'https://previz-engine-m1mm9ayva-valid.vercel.app' }}
+          ENVIRONMENT: staging
+          CI: true
+
+      - name: Upload smoke report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: smoke-report
+          path: reports/playwright-report/
+          retention-days: 7
+
+  full-suite:
+    name: Full Matrix — ${{ matrix.project }}
+    runs-on: ubuntu-latest
+    needs: smoke
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    strategy:
+      fail-fast: false
+      matrix:
+        project: [chromium, firefox, webkit, mobile-chrome, mobile-safari]
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: 'package.json'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      # Resolve the Playwright browser engine for each project name.
+      # mobile-chrome → chromium, mobile-safari → webkit, others → same name.
+      - name: Resolve browser engine
+        id: browser
+        run: |
+          case "${{ matrix.project }}" in
+            mobile-chrome) echo "engine=chromium" >> $GITHUB_OUTPUT ;;
+            mobile-safari) echo "engine=webkit"   >> $GITHUB_OUTPUT ;;
+            *)             echo "engine=${{ matrix.project }}" >> $GITHUB_OUTPUT ;;
+          esac
+
+      - name: Cache Playwright browsers
+        id: playwright-cache
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ steps.browser.outputs.engine }}-${{ runner.os }}-${{ hashFiles('package-lock.json') }}
+
+      - name: Install Playwright browsers
+        if: steps.playwright-cache.outputs.cache-hit != 'true'
+        run: npx playwright install --with-deps ${{ steps.browser.outputs.engine }}
+
+      - name: Run tests — ${{ matrix.project }}
+        run: npm run test:ci -- --project=${{ matrix.project }}
+        env:
+          BASE_URL: ${{ vars.BASE_URL || 'https://previz-engine-m1mm9ayva-valid.vercel.app' }}
+          ENVIRONMENT: staging
+          CI: true
+
+      - name: Generate Allure report
+        if: always()
+        run: npx allure generate reports/allure-results --clean -o reports/allure-report
+
+      - name: Upload Allure report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: allure-report-${{ matrix.project }}
+          path: reports/allure-report/
+          retention-days: 30
+
+      - name: Upload Playwright report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-report-${{ matrix.project }}
+          path: reports/playwright-report/
+          retention-days: 30

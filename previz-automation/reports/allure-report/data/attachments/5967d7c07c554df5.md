@@ -1,0 +1,65 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - alert [ref=e2]
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e6]:
+        - link "Pre-Viz Engine v1.9.0 Transform your vision into pre-visualization" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img [ref=e9]
+          - generic [ref=e18]:
+            - generic [ref=e19]:
+              - heading "Pre-Viz Engine" [level=1] [ref=e20]
+              - generic [ref=e21]: v1.9.0
+            - paragraph [ref=e22]: Transform your vision into pre-visualization
+        - generic [ref=e23]:
+          - link "Studio" [ref=e24] [cursor=pointer]:
+            - /url: /
+            - img [ref=e25]
+            - generic [ref=e34]: Studio
+          - link "Stock Footage" [ref=e35] [cursor=pointer]:
+            - /url: /stock-footage
+            - img [ref=e36]
+            - generic [ref=e39]: Stock Footage
+          - link "History" [ref=e40] [cursor=pointer]:
+            - /url: /history
+            - img [ref=e41]
+            - generic [ref=e44]: History
+    - main [ref=e45]:
+      - generic [ref=e46]:
+        - generic [ref=e47]:
+          - heading "Video History" [level=2] [ref=e48]
+          - paragraph [ref=e49]: View all previously generated videos
+        - generic [ref=e50]:
+          - generic [ref=e51]:
+            - generic [ref=e52]:
+              - generic [ref=e53]:
+                - img [ref=e54]
+                - generic [ref=e66]: Cookie Debug Info
+              - button "Hide" [ref=e67] [cursor=pointer]
+            - generic [ref=e68]:
+              - generic [ref=e69]:
+                - generic [ref=e70]: "Browser Cookie:"
+                - code [ref=e71]: 4c60e120-16ab-4da3-8180-7508d2ed2ac2
+              - generic [ref=e72]:
+                - generic [ref=e73]: "Current Filter:"
+                - code [ref=e74]: mine
+              - generic [ref=e75]: Videos with matching user_cookie_id will appear in "Your Videos" tab.
+          - generic [ref=e76]:
+            - generic [ref=e77]:
+              - button "Your Videos" [ref=e78] [cursor=pointer]:
+                - img [ref=e79]
+                - generic [ref=e82]: Your Videos
+              - button "All Videos" [ref=e83] [cursor=pointer]:
+                - img [ref=e84]
+                - generic [ref=e89]: All Videos
+            - generic [ref=e90]:
+              - generic [ref=e91]: 0 videos
+              - button [disabled]:
+                - img
+          - generic [ref=e92]:
+            - img [ref=e93]
+            - paragraph [ref=e95]: Loading videos...
+```

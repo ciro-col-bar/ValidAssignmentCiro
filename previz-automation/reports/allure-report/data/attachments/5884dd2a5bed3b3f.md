@@ -1,0 +1,448 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e5]:
+        - link "Pre-Viz Engine v1.9.0 Transform your vision into pre-visualization" [ref=e6] [cursor=pointer]:
+          - /url: /
+          - img [ref=e8]
+          - generic [ref=e10]:
+            - generic [ref=e11]:
+              - heading "Pre-Viz Engine" [level=1] [ref=e12]
+              - generic [ref=e13]: v1.9.0
+            - paragraph [ref=e14]: Transform your vision into pre-visualization
+        - generic [ref=e15]:
+          - link "Studio" [ref=e16] [cursor=pointer]:
+            - /url: /
+            - img [ref=e17]
+            - generic [ref=e19]: Studio
+          - link "Stock Footage" [ref=e20] [cursor=pointer]:
+            - /url: /stock-footage
+            - img [ref=e21]
+            - generic [ref=e24]: Stock Footage
+          - link "History" [ref=e25] [cursor=pointer]:
+            - /url: /history
+            - img [ref=e26]
+            - generic [ref=e29]: History
+    - main [ref=e30]:
+      - generic [ref=e31]:
+        - generic [ref=e32]:
+          - heading "Video History" [level=2] [ref=e33]
+          - paragraph [ref=e34]: View all previously generated videos
+        - generic [ref=e35]:
+          - generic [ref=e36]:
+            - generic [ref=e37]:
+              - generic [ref=e38]:
+                - img [ref=e39]
+                - generic [ref=e48]: Cookie Debug Info
+              - button "Hide" [ref=e49] [cursor=pointer]
+            - generic [ref=e50]:
+              - generic [ref=e51]:
+                - generic [ref=e52]: "Browser Cookie:"
+                - code [ref=e53]: 55ed909e-b11f-4fb3-9d11-8e4022628deb
+              - generic [ref=e54]:
+                - generic [ref=e55]: "Current Filter:"
+                - code [ref=e56]: all
+              - generic [ref=e57]: Videos with matching user_cookie_id will appear in "Your Videos" tab.
+          - generic [ref=e58]:
+            - generic [ref=e59]:
+              - button "Your Videos" [ref=e60] [cursor=pointer]:
+                - img [ref=e61]
+                - generic [ref=e64]: Your Videos
+              - button "All Videos" [active] [ref=e65] [cursor=pointer]:
+                - img [ref=e66]
+                - generic [ref=e71]: All Videos
+            - generic [ref=e72]:
+              - generic [ref=e73]: 4370 videos
+              - button [ref=e74] [cursor=pointer]:
+                - img [ref=e75]
+          - generic [ref=e80]:
+            - generic [ref=e82]:
+              - generic [ref=e83]:
+                - generic [ref=e84]:
+                  - img [ref=e85]
+                  - text: Completed
+                - generic [ref=e88]:
+                  - generic [ref=e89]:
+                    - img [ref=e90]
+                    - text: 2m 27s
+                  - generic [ref=e93]: 1h ago
+              - paragraph [ref=e95]: a big cat
+              - generic [ref=e98]: Your browser does not support the video tag.
+              - generic [ref=e99]:
+                - generic [ref=e100]: portrait
+                - generic [ref=e101]: •
+                - generic [ref=e102]: 12s
+                - generic [ref=e103]: •
+                - generic [ref=e104]: standard
+              - generic [ref=e106]:
+                - generic [ref=e107]: "Cookie ID:"
+                - code [ref=e108]: f354c645-cf28-44ff-8d8c-db387ebf213e
+            - generic [ref=e110]:
+              - generic [ref=e111]:
+                - generic [ref=e112]:
+                  - img [ref=e113]
+                  - text: Completed
+                - generic [ref=e116]:
+                  - generic [ref=e117]:
+                    - img [ref=e118]
+                    - text: 2m 48s
+                  - generic [ref=e121]: 1h ago
+              - paragraph [ref=e123]: a big cat
+              - generic [ref=e126]: Your browser does not support the video tag.
+              - generic [ref=e127]:
+                - generic [ref=e128]: portrait
+                - generic [ref=e129]: •
+                - generic [ref=e130]: 12s
+                - generic [ref=e131]: •
+                - generic [ref=e132]: standard
+              - generic [ref=e134]:
+                - generic [ref=e135]: "Cookie ID:"
+                - code [ref=e136]: f354c645-cf28-44ff-8d8c-db387ebf213e
+            - generic [ref=e138]:
+              - generic [ref=e139]:
+                - generic [ref=e140]:
+                  - img [ref=e141]
+                  - text: Completed
+                - generic [ref=e144]:
+                  - generic [ref=e145]:
+                    - img [ref=e146]
+                    - text: 2m 38s
+                  - generic [ref=e149]: 1h ago
+              - paragraph [ref=e151]: a big cat
+              - generic [ref=e154]: Your browser does not support the video tag.
+              - generic [ref=e155]:
+                - generic [ref=e156]: portrait
+                - generic [ref=e157]: •
+                - generic [ref=e158]: 12s
+                - generic [ref=e159]: •
+                - generic [ref=e160]: standard
+              - generic [ref=e162]:
+                - generic [ref=e163]: "Cookie ID:"
+                - code [ref=e164]: f354c645-cf28-44ff-8d8c-db387ebf213e
+            - generic [ref=e166]:
+              - generic [ref=e167]:
+                - generic [ref=e168]:
+                  - img [ref=e169]
+                  - text: Failed
+                - generic [ref=e174]: 1h ago
+              - paragraph [ref=e176]: a
+              - paragraph [ref=e178]: Your request was blocked by our moderation system.
+              - generic [ref=e179]:
+                - generic [ref=e180]: portrait
+                - generic [ref=e181]: •
+                - generic [ref=e182]: 12s
+                - generic [ref=e183]: •
+                - generic [ref=e184]: standard
+              - generic [ref=e186]:
+                - generic [ref=e187]: "Cookie ID:"
+                - code [ref=e188]: f354c645-cf28-44ff-8d8c-db387ebf213e
+            - generic [ref=e190]:
+              - generic [ref=e191]:
+                - generic [ref=e192]:
+                  - img [ref=e193]
+                  - text: Failed
+                - generic [ref=e198]: 1h ago
+              - paragraph [ref=e200]: a
+              - paragraph [ref=e202]: Your request was blocked by our moderation system.
+              - generic [ref=e203]:
+                - generic [ref=e204]: portrait
+                - generic [ref=e205]: •
+                - generic [ref=e206]: 12s
+                - generic [ref=e207]: •
+                - generic [ref=e208]: standard
+              - generic [ref=e210]:
+                - generic [ref=e211]: "Cookie ID:"
+                - code [ref=e212]: f354c645-cf28-44ff-8d8c-db387ebf213e
+            - generic [ref=e214]:
+              - generic [ref=e215]:
+                - generic [ref=e216]:
+                  - img [ref=e217]
+                  - text: Failed
+                - generic [ref=e222]: 1h ago
+              - paragraph [ref=e224]: a
+              - paragraph [ref=e226]: Your request was blocked by our moderation system.
+              - generic [ref=e227]:
+                - generic [ref=e228]: portrait
+                - generic [ref=e229]: •
+                - generic [ref=e230]: 12s
+                - generic [ref=e231]: •
+                - generic [ref=e232]: standard
+              - generic [ref=e234]:
+                - generic [ref=e235]: "Cookie ID:"
+                - code [ref=e236]: f354c645-cf28-44ff-8d8c-db387ebf213e
+            - generic [ref=e238]:
+              - generic [ref=e239]:
+                - generic [ref=e240]:
+                  - img [ref=e241]
+                  - text: Completed
+                - generic [ref=e244]:
+                  - generic [ref=e245]:
+                    - img [ref=e246]
+                    - text: 8m 4s
+                  - generic [ref=e249]: 6h ago
+              - paragraph [ref=e251]: "# Be Present — \"Park Walk\" Script --- ## Ad Concept A professional walks through a park without their phone, delivering verified screen time statistics directly to camera. The tone is calm and self-aware — someone who discovered something and wants to share it, not a lecture. Ends with a natural product mention for Be Present. --- ## PROMPT DIRECTION ### GLOBAL STYLE Footage must look like realistic iPhone user-generated content. Overall feel: * Casual, unstaged, outdoor realism * Imperfect framing with natural drift * Natural daylight — overcast or soft sun preferred * Slight handheld movement as talent walks Realism anchors: * Minor autofocus adjustments as talent moves closer/further * Small exposure shifts between tree shade and open sky * Natural pauses in speech * Ambient park sounds throughout Environment: A normal public park. Simple path through trees. No staged or manicured scenery. Lighting should feel like mid-morning natural daylight. --- ### AUDIO Background park ambience throughout. Subtle outdoor sounds: * Birds * Distant footsteps * Light wind * Occasional distant voices No music. --- ### NEGATIVE PROMPT Do NOT include: * Cinematic lighting * Studio lighting setups * Beauty filters * Professional color grading * Smooth gimbal motion * Drone or wide establishing shots * Graphics or overlays (except caption text) * Background music --- ## SCRIPT **Length:** ~60 seconds **Sound:** park ambience throughout --- **SCENE 01: (0–5s)** Visual Professional (male or female, late 20s–early 40s) walking along a park path. Phone is in their pocket — not in hand. They glance around at the trees, relaxed. Camera Front-facing iPhone camera or lightly held at chest height. Slight natural sway with walking motion. Dialogue \"I used to come to places like this and spend the whole time on my phone.\" *Pauses. Looks up.* \"I genuinely thought I was relaxing.\" Caption on screen *When did you last put it down?* --- **SCENE 02: (5–18s)** Visual Still walking. Tone shifts — matter-of-fact, almost amused. They glance at camera as they deliver the stat. Camera Same handheld frame. Talent fills most of the frame. Dialogue \"Researchers found the average person interacts with their phone about 2,600 times every day.\" *Brief pause.* \"That's not usage. That's compulsion.\" Caption on screen *2,600 times a day.* --- **SCENE 03: (18–35s)** Visual Talent slows slightly. More direct eye contact with camera. They stop walking for the key stat. Camera Camera settles as talent stops. Slight natural handheld micro-movement. Dialogue \"And at night it gets worse. Just one hour of screen use in bed is linked to a 59% higher risk of insomnia — and about 24 minutes less sleep every single night.\" *Lets it land.* \"Today, about one in three adults reports symptoms of insomnia. Most of us never connect it back to the device in our hand.\" Caption on screen *59% higher risk of insomnia.* *1 in 3 adults.* --- **SCENE 04: (35–50s)** Visual Talent starts walking again. Energy shifts — lighter, quieter. They look around the park genuinely. Camera Pulls back slightly as talent walks. Natural framing. Dialogue \"I started using an app called Be Present. It helps you actually put the phone down — screen time nudges, daily check-ins, guided moments to just… be here.\" *Looks around.* \"This walk used to feel like wasted time.\" Caption on screen *Be Present.* --- **SCENE 05: (50–60s)** Visual Talent looks back at camera. Simple. Unhurried. Camera Close-ish frame. Still handheld. Dialogue \"Now it's the clearest I feel all day.\" *Beat.* \"Download Be Present. It's time to come back.\" Caption on screen *Download Be Present.* --- ## ENDING Use Be Present animated demo ending. 9:16 version. Use the animated product demo instead of a static end card. --- ## STATS REFERENCE (sourced & verified) | Claim | Source | |---|---| | 2,600 phone interactions/day | dscout research study | | 59% higher insomnia risk | Norwegian population study | | 24 min less sleep/night | Same Norwegian study | | 1 in 3 adults with insomnia symptoms | Sleep research consensus (~30–35%) |"
+              - generic [ref=e254]: Your browser does not support the video tag.
+              - generic [ref=e255]:
+                - generic [ref=e256]: portrait
+                - generic [ref=e257]: •
+                - generic [ref=e258]: 12s
+                - generic [ref=e259]: •
+                - generic [ref=e260]: standard
+              - generic [ref=e262]:
+                - generic [ref=e263]: "Cookie ID:"
+                - code [ref=e264]: c61f74b9-13ab-47a2-97e6-df95598d219d
+            - generic [ref=e266]:
+              - generic [ref=e267]:
+                - generic [ref=e268]:
+                  - img [ref=e269]
+                  - text: Completed
+                - generic [ref=e272]:
+                  - generic [ref=e273]:
+                    - img [ref=e274]
+                    - text: 8m 2s
+                  - generic [ref=e277]: 6h ago
+              - paragraph [ref=e279]: "# Be Present — \"Park Walk\" Script --- ## Ad Concept A professional walks through a park without their phone, delivering verified screen time statistics directly to camera. The tone is calm and self-aware — someone who discovered something and wants to share it, not a lecture. Ends with a natural product mention for Be Present. --- ## PROMPT DIRECTION ### GLOBAL STYLE Footage must look like realistic iPhone user-generated content. Overall feel: * Casual, unstaged, outdoor realism * Imperfect framing with natural drift * Natural daylight — overcast or soft sun preferred * Slight handheld movement as talent walks Realism anchors: * Minor autofocus adjustments as talent moves closer/further * Small exposure shifts between tree shade and open sky * Natural pauses in speech * Ambient park sounds throughout Environment: A normal public park. Simple path through trees. No staged or manicured scenery. Lighting should feel like mid-morning natural daylight. --- ### AUDIO Background park ambience throughout. Subtle outdoor sounds: * Birds * Distant footsteps * Light wind * Occasional distant voices No music. --- ### NEGATIVE PROMPT Do NOT include: * Cinematic lighting * Studio lighting setups * Beauty filters * Professional color grading * Smooth gimbal motion * Drone or wide establishing shots * Graphics or overlays (except caption text) * Background music --- ## SCRIPT **Length:** ~60 seconds **Sound:** park ambience throughout --- **SCENE 01: (0–5s)** Visual Professional (male or female, late 20s–early 40s) walking along a park path. Phone is in their pocket — not in hand. They glance around at the trees, relaxed. Camera Front-facing iPhone camera or lightly held at chest height. Slight natural sway with walking motion. Dialogue \"I used to come to places like this and spend the whole time on my phone.\" *Pauses. Looks up.* \"I genuinely thought I was relaxing.\" Caption on screen *When did you last put it down?* --- **SCENE 02: (5–18s)** Visual Still walking. Tone shifts — matter-of-fact, almost amused. They glance at camera as they deliver the stat. Camera Same handheld frame. Talent fills most of the frame. Dialogue \"Researchers found the average person interacts with their phone about 2,600 times every day.\" *Brief pause.* \"That's not usage. That's compulsion.\" Caption on screen *2,600 times a day.* --- **SCENE 03: (18–35s)** Visual Talent slows slightly. More direct eye contact with camera. They stop walking for the key stat. Camera Camera settles as talent stops. Slight natural handheld micro-movement. Dialogue \"And at night it gets worse. Just one hour of screen use in bed is linked to a 59% higher risk of insomnia — and about 24 minutes less sleep every single night.\" *Lets it land.* \"Today, about one in three adults reports symptoms of insomnia. Most of us never connect it back to the device in our hand.\" Caption on screen *59% higher risk of insomnia.* *1 in 3 adults.* --- **SCENE 04: (35–50s)** Visual Talent starts walking again. Energy shifts — lighter, quieter. They look around the park genuinely. Camera Pulls back slightly as talent walks. Natural framing. Dialogue \"I started using an app called Be Present. It helps you actually put the phone down — screen time nudges, daily check-ins, guided moments to just… be here.\" *Looks around.* \"This walk used to feel like wasted time.\" Caption on screen *Be Present.* --- **SCENE 05: (50–60s)** Visual Talent looks back at camera. Simple. Unhurried. Camera Close-ish frame. Still handheld. Dialogue \"Now it's the clearest I feel all day.\" *Beat.* \"Download Be Present. It's time to come back.\" Caption on screen *Download Be Present.* --- ## ENDING Use Be Present animated demo ending. 9:16 version. Use the animated product demo instead of a static end card. --- ## STATS REFERENCE (sourced & verified) | Claim | Source | |---|---| | 2,600 phone interactions/day | dscout research study | | 59% higher insomnia risk | Norwegian population study | | 24 min less sleep/night | Same Norwegian study | | 1 in 3 adults with insomnia symptoms | Sleep research consensus (~30–35%) |"
+              - generic [ref=e282]: Your browser does not support the video tag.
+              - generic [ref=e283]:
+                - generic [ref=e284]: portrait
+                - generic [ref=e285]: •
+                - generic [ref=e286]: 12s
+                - generic [ref=e287]: •
+                - generic [ref=e288]: standard
+              - generic [ref=e290]:
+                - generic [ref=e291]: "Cookie ID:"
+                - code [ref=e292]: c61f74b9-13ab-47a2-97e6-df95598d219d
+            - generic [ref=e294]:
+              - generic [ref=e295]:
+                - generic [ref=e296]:
+                  - img [ref=e297]
+                  - text: Completed
+                - generic [ref=e300]:
+                  - generic [ref=e301]:
+                    - img [ref=e302]
+                    - text: 8m 3s
+                  - generic [ref=e305]: 6h ago
+              - paragraph [ref=e307]: "# Be Present — \"Park Walk\" Script --- ## Ad Concept A professional walks through a park without their phone, delivering verified screen time statistics directly to camera. The tone is calm and self-aware — someone who discovered something and wants to share it, not a lecture. Ends with a natural product mention for Be Present. --- ## PROMPT DIRECTION ### GLOBAL STYLE Footage must look like realistic iPhone user-generated content. Overall feel: * Casual, unstaged, outdoor realism * Imperfect framing with natural drift * Natural daylight — overcast or soft sun preferred * Slight handheld movement as talent walks Realism anchors: * Minor autofocus adjustments as talent moves closer/further * Small exposure shifts between tree shade and open sky * Natural pauses in speech * Ambient park sounds throughout Environment: A normal public park. Simple path through trees. No staged or manicured scenery. Lighting should feel like mid-morning natural daylight. --- ### AUDIO Background park ambience throughout. Subtle outdoor sounds: * Birds * Distant footsteps * Light wind * Occasional distant voices No music. --- ### NEGATIVE PROMPT Do NOT include: * Cinematic lighting * Studio lighting setups * Beauty filters * Professional color grading * Smooth gimbal motion * Drone or wide establishing shots * Graphics or overlays (except caption text) * Background music --- ## SCRIPT **Length:** ~60 seconds **Sound:** park ambience throughout --- **SCENE 01: (0–5s)** Visual Professional (male or female, late 20s–early 40s) walking along a park path. Phone is in their pocket — not in hand. They glance around at the trees, relaxed. Camera Front-facing iPhone camera or lightly held at chest height. Slight natural sway with walking motion. Dialogue \"I used to come to places like this and spend the whole time on my phone.\" *Pauses. Looks up.* \"I genuinely thought I was relaxing.\" Caption on screen *When did you last put it down?* --- **SCENE 02: (5–18s)** Visual Still walking. Tone shifts — matter-of-fact, almost amused. They glance at camera as they deliver the stat. Camera Same handheld frame. Talent fills most of the frame. Dialogue \"Researchers found the average person interacts with their phone about 2,600 times every day.\" *Brief pause.* \"That's not usage. That's compulsion.\" Caption on screen *2,600 times a day.* --- **SCENE 03: (18–35s)** Visual Talent slows slightly. More direct eye contact with camera. They stop walking for the key stat. Camera Camera settles as talent stops. Slight natural handheld micro-movement. Dialogue \"And at night it gets worse. Just one hour of screen use in bed is linked to a 59% higher risk of insomnia — and about 24 minutes less sleep every single night.\" *Lets it land.* \"Today, about one in three adults reports symptoms of insomnia. Most of us never connect it back to the device in our hand.\" Caption on screen *59% higher risk of insomnia.* *1 in 3 adults.* --- **SCENE 04: (35–50s)** Visual Talent starts walking again. Energy shifts — lighter, quieter. They look around the park genuinely. Camera Pulls back slightly as talent walks. Natural framing. Dialogue \"I started using an app called Be Present. It helps you actually put the phone down — screen time nudges, daily check-ins, guided moments to just… be here.\" *Looks around.* \"This walk used to feel like wasted time.\" Caption on screen *Be Present.* --- **SCENE 05: (50–60s)** Visual Talent looks back at camera. Simple. Unhurried. Camera Close-ish frame. Still handheld. Dialogue \"Now it's the clearest I feel all day.\" *Beat.* \"Download Be Present. It's time to come back.\" Caption on screen *Download Be Present.* --- ## ENDING Use Be Present animated demo ending. 9:16 version. Use the animated product demo instead of a static end card. --- ## STATS REFERENCE (sourced & verified) | Claim | Source | |---|---| | 2,600 phone interactions/day | dscout research study | | 59% higher insomnia risk | Norwegian population study | | 24 min less sleep/night | Same Norwegian study | | 1 in 3 adults with insomnia symptoms | Sleep research consensus (~30–35%) |"
+              - generic [ref=e310]: Your browser does not support the video tag.
+              - generic [ref=e311]:
+                - generic [ref=e312]: portrait
+                - generic [ref=e313]: •
+                - generic [ref=e314]: 12s
+                - generic [ref=e315]: •
+                - generic [ref=e316]: standard
+              - generic [ref=e318]:
+                - generic [ref=e319]: "Cookie ID:"
+                - code [ref=e320]: c61f74b9-13ab-47a2-97e6-df95598d219d
+            - generic [ref=e322]:
+              - generic [ref=e323]:
+                - generic [ref=e324]:
+                  - img [ref=e325]
+                  - text: Completed
+                - generic [ref=e328]:
+                  - generic [ref=e329]:
+                    - img [ref=e330]
+                    - text: 9m 10s
+                  - generic [ref=e333]: 8h ago
+              - paragraph [ref=e335]: "A highly realistic cinematic video of a scientist in a laboratory. A middle-aged male scientist (around 45–55) stands in a modern research laboratory. He has slightly messy gray hair, round wire-frame glasses, sharp cheekbones, and a focused, analytical expression. He wears a crisp white lab coat over a light blue button-down shirt, with a dark tie slightly loosened, giving him the look of a brilliant but overworked researcher. A pen and small notebook stick out of his coat pocket. His posture is upright but slightly hunched from concentration. Behind him is a large glass whiteboard filled with dense scientific diagrams, equations, arrows, circled notes, and hand-drawn graphs. The writing should look complex and authentic, covering topics like brain waves, hormone charts, and sleep cycles. Some sections are underlined or boxed in red marker. The lighting is bright laboratory lighting, slightly cool in tone. In the background: lab benches, microscopes, racks of test tubes, computers displaying graphs, and blinking scientific equipment. Everything looks realistic and professional, like a neuroscience research lab. Action (12 seconds): The scientist stands beside the whiteboard, quickly writing one last equation with a marker. He pauses, steps back, adjusts his glasses, studies the board, then turns toward the camera with an intense, matter-of-fact expression as if about to reveal an important discovery. Camera: Medium shot, slightly handheld but subtle, documentary style. The camera slowly pushes in toward the scientist. Mood: Serious, intelligent, authoritative. The character should look extremely credible and “textbook scientist” archetype, the kind of expert audiences instinctively trust. Style: Ultra-realistic, cinematic, natural motion, professional film lighting, 4K, shallow depth of field, highly detailed textures."
+              - generic [ref=e338]: Your browser does not support the video tag.
+              - generic [ref=e339]:
+                - generic [ref=e340]: portrait
+                - generic [ref=e341]: •
+                - generic [ref=e342]: 12s
+                - generic [ref=e343]: •
+                - generic [ref=e344]: standard
+              - generic [ref=e346]:
+                - generic [ref=e347]: "Cookie ID:"
+                - code [ref=e348]: c61f74b9-13ab-47a2-97e6-df95598d219d
+            - generic [ref=e350]:
+              - generic [ref=e351]:
+                - generic [ref=e352]:
+                  - img [ref=e353]
+                  - text: Completed
+                - generic [ref=e356]:
+                  - generic [ref=e357]:
+                    - img [ref=e358]
+                    - text: 9m 11s
+                  - generic [ref=e361]: 8h ago
+              - paragraph [ref=e363]: "A highly realistic cinematic video of a scientist in a laboratory. A middle-aged male scientist (around 45–55) stands in a modern research laboratory. He has slightly messy gray hair, round wire-frame glasses, sharp cheekbones, and a focused, analytical expression. He wears a crisp white lab coat over a light blue button-down shirt, with a dark tie slightly loosened, giving him the look of a brilliant but overworked researcher. A pen and small notebook stick out of his coat pocket. His posture is upright but slightly hunched from concentration. Behind him is a large glass whiteboard filled with dense scientific diagrams, equations, arrows, circled notes, and hand-drawn graphs. The writing should look complex and authentic, covering topics like brain waves, hormone charts, and sleep cycles. Some sections are underlined or boxed in red marker. The lighting is bright laboratory lighting, slightly cool in tone. In the background: lab benches, microscopes, racks of test tubes, computers displaying graphs, and blinking scientific equipment. Everything looks realistic and professional, like a neuroscience research lab. Action (12 seconds): The scientist stands beside the whiteboard, quickly writing one last equation with a marker. He pauses, steps back, adjusts his glasses, studies the board, then turns toward the camera with an intense, matter-of-fact expression as if about to reveal an important discovery. Camera: Medium shot, slightly handheld but subtle, documentary style. The camera slowly pushes in toward the scientist. Mood: Serious, intelligent, authoritative. The character should look extremely credible and “textbook scientist” archetype, the kind of expert audiences instinctively trust. Style: Ultra-realistic, cinematic, natural motion, professional film lighting, 4K, shallow depth of field, highly detailed textures."
+              - generic [ref=e366]: Your browser does not support the video tag.
+              - generic [ref=e367]:
+                - generic [ref=e368]: portrait
+                - generic [ref=e369]: •
+                - generic [ref=e370]: 12s
+                - generic [ref=e371]: •
+                - generic [ref=e372]: standard
+              - generic [ref=e374]:
+                - generic [ref=e375]: "Cookie ID:"
+                - code [ref=e376]: c61f74b9-13ab-47a2-97e6-df95598d219d
+            - generic [ref=e378]:
+              - generic [ref=e379]:
+                - generic [ref=e380]:
+                  - img [ref=e381]
+                  - text: Completed
+                - generic [ref=e384]:
+                  - generic [ref=e385]:
+                    - img [ref=e386]
+                    - text: 9m 11s
+                  - generic [ref=e389]: 8h ago
+              - paragraph [ref=e391]: "A highly realistic cinematic video of a scientist in a laboratory. A middle-aged male scientist (around 45–55) stands in a modern research laboratory. He has slightly messy gray hair, round wire-frame glasses, sharp cheekbones, and a focused, analytical expression. He wears a crisp white lab coat over a light blue button-down shirt, with a dark tie slightly loosened, giving him the look of a brilliant but overworked researcher. A pen and small notebook stick out of his coat pocket. His posture is upright but slightly hunched from concentration. Behind him is a large glass whiteboard filled with dense scientific diagrams, equations, arrows, circled notes, and hand-drawn graphs. The writing should look complex and authentic, covering topics like brain waves, hormone charts, and sleep cycles. Some sections are underlined or boxed in red marker. The lighting is bright laboratory lighting, slightly cool in tone. In the background: lab benches, microscopes, racks of test tubes, computers displaying graphs, and blinking scientific equipment. Everything looks realistic and professional, like a neuroscience research lab. Action (12 seconds): The scientist stands beside the whiteboard, quickly writing one last equation with a marker. He pauses, steps back, adjusts his glasses, studies the board, then turns toward the camera with an intense, matter-of-fact expression as if about to reveal an important discovery. Camera: Medium shot, slightly handheld but subtle, documentary style. The camera slowly pushes in toward the scientist. Mood: Serious, intelligent, authoritative. The character should look extremely credible and “textbook scientist” archetype, the kind of expert audiences instinctively trust. Style: Ultra-realistic, cinematic, natural motion, professional film lighting, 4K, shallow depth of field, highly detailed textures."
+              - generic [ref=e394]: Your browser does not support the video tag.
+              - generic [ref=e395]:
+                - generic [ref=e396]: portrait
+                - generic [ref=e397]: •
+                - generic [ref=e398]: 12s
+                - generic [ref=e399]: •
+                - generic [ref=e400]: standard
+              - generic [ref=e402]:
+                - generic [ref=e403]: "Cookie ID:"
+                - code [ref=e404]: c61f74b9-13ab-47a2-97e6-df95598d219d
+            - generic [ref=e406]:
+              - generic [ref=e407]:
+                - generic [ref=e408]:
+                  - img [ref=e409]
+                  - text: Failed
+                - generic [ref=e414]: 12h ago
+              - paragraph [ref=e416]: Written by William Steig & Ted Elliott SHREK Once upon a time there was a lovely princess. But she had an enchantment upon her of a fearful sort which could only be broken by love's first kiss. She was locked away in a castle guarded by a terrible fire-breathing dragon. Many brave knights had attempted to free her from this dreadful prison, but non prevailed. She waited in the dragon's keep in the highest room of the tallest tower for her true love and true love's first kiss. (laughs) Like that's ever gonna happen. What a load of - (toilet flush) Allstar - by Smashmouth begins to play. Shrek goes about his day. While in a nearby town, the villagers get together to go after the ogre. NIGHT - NEAR SHREK'S HOME MAN1 Think it's in there? MAN2 All right. Let's get it! MAN1 Whoa. Hold on. Do you know what that thing can do to you? MAN3 Yeah, it'll grind your bones for it's bread. Shrek sneaks up behind them and laughs. SHREK Yes, well, actually, that would be a giant. Now, ogres, oh they're much worse. They'll make a suit from your freshly peeled skin. MEN No! SHREK They'll shave your liver. Squeeze the jelly from your eyes! Actually, it's quite good on toast. MAN1 Back! Back, beast! Back! I warn ya! (waves the torch at Shrek.) Shrek calmly licks his fingers and extinguishes the torch. The men shrink back away from him. Shrek roars very loudly and long and his breath extinguishes all the remaining torches until the men are in the dark. SHREK This is the part where you run away. (The men scramble to get away. He laughs.) And stay out! (looks down and picks up a piece of paper. Reads.) "Wanted. Fairy tale creatures."(He sighs and throws the paper over his shoulder.) THE NEXT DAY There is a line of fairy tale creatures. The head of the guard sits at a table paying people for bringing the fairy tale creatures to him. There are cages all around. Some of the people in line are Peter Pan, who is carrying Tinkerbell in a cage, Gipetto who's carrying Pinocchio, and a farmer who is carrying the three little pigs. GUARD All right. This one's full. Take it away! Move it along. Come on! Get up! HEAD GUARD Next! GUARD (taking the witch's broom) Give me that! Your flying days are over. (breaks the broom in half) HEAD GUARD That's 20 pieces of silver for the witch. Next! GUARD Get up! Come on! HEAD GUARD Twenty pieces. LITTLE BEAR (crying) This cage is too small. DONKEY Please, don't turn me in. I'll never be stubborn again. I can change. Please! Give me another chance! OLD WOMAN Oh, shut up. (jerks his rope) DONKEY Oh! HEAD GUARD
+              - paragraph [ref=e418]: Video generation failed due to an internal error.
+              - generic [ref=e419]:
+                - generic [ref=e420]: portrait
+                - generic [ref=e421]: •
+                - generic [ref=e422]: 12s
+                - generic [ref=e423]: •
+                - generic [ref=e424]: standard
+              - generic [ref=e426]:
+                - generic [ref=e427]: "Cookie ID:"
+                - code [ref=e428]: f354c645-cf28-44ff-8d8c-db387ebf213e
+            - generic [ref=e430]:
+              - generic [ref=e431]:
+                - generic [ref=e432]:
+                  - img [ref=e433]
+                  - text: Failed
+                - generic [ref=e438]: 12h ago
+              - paragraph [ref=e440]: Written by William Steig & Ted Elliott SHREK Once upon a time there was a lovely princess. But she had an enchantment upon her of a fearful sort which could only be broken by love's first kiss. She was locked away in a castle guarded by a terrible fire-breathing dragon. Many brave knights had attempted to free her from this dreadful prison, but non prevailed. She waited in the dragon's keep in the highest room of the tallest tower for her true love and true love's first kiss. (laughs) Like that's ever gonna happen. What a load of - (toilet flush) Allstar - by Smashmouth begins to play. Shrek goes about his day. While in a nearby town, the villagers get together to go after the ogre. NIGHT - NEAR SHREK'S HOME MAN1 Think it's in there? MAN2 All right. Let's get it! MAN1 Whoa. Hold on. Do you know what that thing can do to you? MAN3 Yeah, it'll grind your bones for it's bread. Shrek sneaks up behind them and laughs. SHREK Yes, well, actually, that would be a giant. Now, ogres, oh they're much worse. They'll make a suit from your freshly peeled skin. MEN No! SHREK They'll shave your liver. Squeeze the jelly from your eyes! Actually, it's quite good on toast. MAN1 Back! Back, beast! Back! I warn ya! (waves the torch at Shrek.) Shrek calmly licks his fingers and extinguishes the torch. The men shrink back away from him. Shrek roars very loudly and long and his breath extinguishes all the remaining torches until the men are in the dark. SHREK This is the part where you run away. (The men scramble to get away. He laughs.) And stay out! (looks down and picks up a piece of paper. Reads.) "Wanted. Fairy tale creatures."(He sighs and throws the paper over his shoulder.) THE NEXT DAY There is a line of fairy tale creatures. The head of the guard sits at a table paying people for bringing the fairy tale creatures to him. There are cages all around. Some of the people in line are Peter Pan, who is carrying Tinkerbell in a cage, Gipetto who's carrying Pinocchio, and a farmer who is carrying the three little pigs. GUARD All right. This one's full. Take it away! Move it along. Come on! Get up! HEAD GUARD Next! GUARD (taking the witch's broom) Give me that! Your flying days are over. (breaks the broom in half) HEAD GUARD That's 20 pieces of silver for the witch. Next! GUARD Get up! Come on! HEAD GUARD Twenty pieces. LITTLE BEAR (crying) This cage is too small. DONKEY Please, don't turn me in. I'll never be stubborn again. I can change. Please! Give me another chance! OLD WOMAN Oh, shut up. (jerks his rope) DONKEY Oh! HEAD GUARD
+              - paragraph [ref=e442]: Your request was blocked by our moderation system.
+              - generic [ref=e443]:
+                - generic [ref=e444]: portrait
+                - generic [ref=e445]: •
+                - generic [ref=e446]: 12s
+                - generic [ref=e447]: •
+                - generic [ref=e448]: standard
+              - generic [ref=e450]:
+                - generic [ref=e451]: "Cookie ID:"
+                - code [ref=e452]: f354c645-cf28-44ff-8d8c-db387ebf213e
+            - generic [ref=e454]:
+              - generic [ref=e455]:
+                - generic [ref=e456]:
+                  - img [ref=e457]
+                  - text: Failed
+                - generic [ref=e462]: 12h ago
+              - paragraph [ref=e464]: Written by William Steig & Ted Elliott SHREK Once upon a time there was a lovely princess. But she had an enchantment upon her of a fearful sort which could only be broken by love's first kiss. She was locked away in a castle guarded by a terrible fire-breathing dragon. Many brave knights had attempted to free her from this dreadful prison, but non prevailed. She waited in the dragon's keep in the highest room of the tallest tower for her true love and true love's first kiss. (laughs) Like that's ever gonna happen. What a load of - (toilet flush) Allstar - by Smashmouth begins to play. Shrek goes about his day. While in a nearby town, the villagers get together to go after the ogre. NIGHT - NEAR SHREK'S HOME MAN1 Think it's in there? MAN2 All right. Let's get it! MAN1 Whoa. Hold on. Do you know what that thing can do to you? MAN3 Yeah, it'll grind your bones for it's bread. Shrek sneaks up behind them and laughs. SHREK Yes, well, actually, that would be a giant. Now, ogres, oh they're much worse. They'll make a suit from your freshly peeled skin. MEN No! SHREK They'll shave your liver. Squeeze the jelly from your eyes! Actually, it's quite good on toast. MAN1 Back! Back, beast! Back! I warn ya! (waves the torch at Shrek.) Shrek calmly licks his fingers and extinguishes the torch. The men shrink back away from him. Shrek roars very loudly and long and his breath extinguishes all the remaining torches until the men are in the dark. SHREK This is the part where you run away. (The men scramble to get away. He laughs.) And stay out! (looks down and picks up a piece of paper. Reads.) "Wanted. Fairy tale creatures."(He sighs and throws the paper over his shoulder.) THE NEXT DAY There is a line of fairy tale creatures. The head of the guard sits at a table paying people for bringing the fairy tale creatures to him. There are cages all around. Some of the people in line are Peter Pan, who is carrying Tinkerbell in a cage, Gipetto who's carrying Pinocchio, and a farmer who is carrying the three little pigs. GUARD All right. This one's full. Take it away! Move it along. Come on! Get up! HEAD GUARD Next! GUARD (taking the witch's broom) Give me that! Your flying days are over. (breaks the broom in half) HEAD GUARD That's 20 pieces of silver for the witch. Next! GUARD Get up! Come on! HEAD GUARD Twenty pieces. LITTLE BEAR (crying) This cage is too small. DONKEY Please, don't turn me in. I'll never be stubborn again. I can change. Please! Give me another chance! OLD WOMAN Oh, shut up. (jerks his rope) DONKEY Oh! HEAD GUARD
+              - paragraph [ref=e466]: Your request was blocked by our moderation system.
+              - generic [ref=e467]:
+                - generic [ref=e468]: portrait
+                - generic [ref=e469]: •
+                - generic [ref=e470]: 12s
+                - generic [ref=e471]: •
+                - generic [ref=e472]: standard
+              - generic [ref=e474]:
+                - generic [ref=e475]: "Cookie ID:"
+                - code [ref=e476]: f354c645-cf28-44ff-8d8c-db387ebf213e
+            - generic [ref=e478]:
+              - generic [ref=e479]:
+                - generic [ref=e480]:
+                  - img [ref=e481]
+                  - text: Failed
+                - generic [ref=e486]: 12h ago
+              - paragraph [ref=e488]: Written by William Steig & Ted Elliott SHREK Once upon a time there was a lovely princess. But she had an enchantment upon her of a fearful sort which could only be broken by love's first kiss. She was locked away in a castle guarded by a terrible fire-breathing dragon. Many brave knights had attempted to free her from this dreadful prison, but non prevailed. She waited in the dragon's keep in the highest room of the tallest tower for her true love and true love's first kiss. (laughs) Like that's ever gonna happen. What a load of - (toilet flush) Allstar - by Smashmouth begins to play. Shrek goes about his day. While in a nearby town, the villagers get together to go after the ogre. NIGHT - NEAR SHREK'S HOME MAN1 Think it's in there? MAN2 All right. Let's get it! MAN1 Whoa. Hold on. Do you know what that thing can do to you? MAN3 Yeah, it'll grind your bones for it's bread. Shrek sneaks up behind them and laughs. SHREK Yes, well, actually, that would be a giant. Now, ogres, oh they're much worse. They'll make a suit from your freshly peeled skin. MEN No! SHREK They'll shave your liver. Squeeze the jelly from your eyes! Actually, it's quite good on toast. MAN1 Back! Back, beast! Back! I warn ya! (waves the torch at Shrek.) Shrek calmly licks his fingers and extinguishes the torch. The men shrink back away from him. Shrek roars very loudly and long and his breath extinguishes all the remaining torches until the men are in the dark. SHREK This is the part where you run away. (The men scramble to get away. He laughs.) And stay out! (looks down and picks up a piece of paper. Reads.) "Wanted. Fairy tale creatures."(He sighs and throws the paper over his shoulder.) THE NEXT DAY There is a line of fairy tale creatures. The head of the guard sits at a table paying people for bringing the fairy tale creatures to him. There are cages all around. Some of the people in line are Peter Pan, who is carrying Tinkerbell in a cage, Gipetto who's carrying Pinocchio, and a farmer who is carrying the three little pigs. GUARD All right. This one's full. Take it away! Move it along. Come on! Get up! HEAD GUARD Next! GUARD (taking the witch's broom) Give me that! Your flying days are over. (breaks the broom in half) HEAD GUARD That's 20 pieces of silver for the witch. Next! GUARD Get up! Come on! HEAD GUARD Twenty pieces. LITTLE BEAR (crying) This cage is too small. DONKEY Please, don't turn me in. I'll never be stubborn again. I can change. Please! Give me another chance! OLD WOMAN Oh, shut up. (jerks his rope) DONKEY Oh! HEAD GUARD
+              - paragraph [ref=e490]: Video generation failed due to an internal error.
+              - generic [ref=e491]:
+                - generic [ref=e492]: portrait
+                - generic [ref=e493]: •
+                - generic [ref=e494]: 12s
+                - generic [ref=e495]: •
+                - generic [ref=e496]: standard
+              - generic [ref=e498]:
+                - generic [ref=e499]: "Cookie ID:"
+                - code [ref=e500]: f354c645-cf28-44ff-8d8c-db387ebf213e
+            - generic [ref=e502]:
+              - generic [ref=e503]:
+                - generic [ref=e504]:
+                  - img [ref=e505]
+                  - text: Failed
+                - generic [ref=e510]: 12h ago
+              - paragraph [ref=e512]: SHREK Written by William Steig & Ted Elliott SHREK Once upon a time there was a lovely princess. But she had an enchantment upon her of a fearful sort which could only be broken by love's first kiss. She was locked away in a castle guarded by a terrible fire-breathing dragon. Many brave knights had attempted to free her from this dreadful prison, but non prevailed. She waited in the dragon's keep in the highest room of the tallest tower for her true love and true love's first kiss. (laughs) Like that's ever gonna happen. What a load of - (toilet flush) Allstar - by Smashmouth begins to play. Shrek goes about his day. While in a nearby town, the villagers get together to go after the ogre. NIGHT - NEAR SHREK'S HOME MAN1 Think it's in there? MAN2 All right. Let's get it! MAN1 Whoa. Hold on. Do you know what that thing can do to you? MAN3 Yeah, it'll grind your bones for it's bread. Shrek sneaks up behind them and laughs. SHREK Yes, well, actually, that would be a giant. Now, ogres, oh they're much worse. They'll make a suit from your freshly peeled skin. MEN No! SHREK They'll shave your liver. Squeeze the jelly from your eyes! Actually, it's quite good on toast. MAN1 Back! Back, beast! Back! I warn ya! (waves the torch at Shrek.) Shrek calmly licks his fingers and extinguishes the torch. The men shrink back away from him. Shrek roars very loudly and long and his breath extinguishes all the remaining torches until the men are in the dark. SHREK This is the part where you run away. (The men scramble to get away. He laughs.) And stay out! (looks down and picks up a piece of paper. Reads.) "Wanted. Fairy tale creatures."(He sighs and throws the paper over his shoulder.) THE NEXT DAY There is a line of fairy tale creatures. The head of the guard sits at a table paying people for bringing the fairy tale creatures to him. There are cages all around. Some of the people in line are Peter Pan, who is carrying Tinkerbell in a cage, Gipetto who's carrying Pinocchio, and a farmer who is carrying the three little pigs. GUARD All right. This one's full. Take it away! Move it along. Come on! Get up! HEAD GUARD Next! GUARD (taking the witch's broom) Give me that! Your flying days are over. (breaks the broom in half) HEAD GUARD That's 20 pieces of silver for the witch. Next! GUARD Get up! Come on! HEAD GUARD Twenty pieces. LITTLE BEAR (crying) This cage is too small. DONKEY Please, don't turn me in. I'll never be stubborn again. I can change. Please! Give me another chance! OLD WOMAN Oh, shut up. (jerks his rope) DONKEY Oh! HEAD GUARD Next! What have you got? GIPETTO This little wooden puppet. PINOCCHIO I'm not a puppet. I'm a real boy. (his nose grows) HEAD GUARD Five shillings for the possessed toy. Take it away. PINOCCHIO Father, please! Don't let them do this! Help me! Gipetto takes the money and walks off. The old woman steps up to the table. HEAD GUARD Next! What have you got? OLD WOMAN Well, I've got a talking donkey. HEAD GUARD Right. Well, that's good for ten shillings, if you can prove it. OLD WOMAN Oh, go ahead, little fella. Donkey just looks up at her. HEAD GUARD Well? OLD WOMAN Oh, oh, he's just...he's just a little nervous. He's really quite a chatterbox. Talk, you boneheaded dolt... HEAD GUARD That's it. I've heard enough. Guards! OLD WOMAN No, no, he talks! He does. (pretends to be Donkey) I can talk. I love to talk. I'm the talkingest damn thing you ever saw. HEAD GUARD Get her out of my sight. OLD WOMAN No, no! I swear! Oh! He can talk! The guards grab the old woman and she struggles with them. One of her legs flies out and kicks Tinkerbell out of Peter Pan's hands, and her cage drops on Donkey's head. He gets sprinkled with fairy dust and he's able to fly. DONKEY Hey! I can fly! PETER PAN He can fly! 3 LITTLE PIGS He can fly! HEAD GUARD He can talk! DONKEY Ha, ha! That's right, fool! Now I'm a flying, talking donkey. You might have seen a housefly, maybe even a superfly but I bet you ain't never seen a donkey fly. Ha, ha! (the pixie dust begins to wear off) Uh-oh. (he begins to sink to the ground.) He hits the ground with a thud. HEAD GUARD Seize him! (Donkey takes of running.) After him! GUARDS He's getting away! Get him! This way! Turn! Donkey keeps running and he eventually runs into Shrek. Literally. Shrek turns around to see who bumped into him. Donkey looks scared for a moment then he spots the guards coming up the path. He quickly hides behind Shrek. HEAD GUARD You there. Ogre! SHREK Aye? HEAD GUARD By the order of Lord Farquaad I am authorized to place you both under arrest and transport you to a designated resettlement facility. SHREK Oh, really? You and what army? He looks behind the guard and the guard turns to look as well and we see that the other men have run off. The guard tucks tail and runs off. Shrek laughs and goes back about his business and begins walking back to his cottage. DONKEY Can I say something to you? Listen, you was really, really, really somethin' back here. Incredible! SHREK Are you talkin' to...(he turns around and Donkey is gone) me? (he turns back around and Donkey is right in front of him.) Whoa! DONKEY Yes. I was talkin' to you. Can I tell you that you that you was great back here? Those guards! They thought they was all of that. Then you showed up, and bam! They was trippin' over themselves like babes in the woods. That really made me feel good to see that. SHREK Oh, that's great. Really. DONKEY Man, it's good to be free. SHREK Now, why don't you go celebrate your freedom with your own friends? Hmm? DONKEY But, uh, I don't have any friends. And I'm not goin' out there by myself. Hey, wait a minute! I got a great idea! I'll stick with you. You're mean, green, fightin' machine. Together we'll scare the spit out of anybody that crosses us. Shrek turns and regards Donkey for a moment before roaring very loudly. DONKEY Oh, wow! That was really scary. If you don't mind me sayin', if that don't work, your breath certainly will get the job done, 'cause you definitely need some Tic Tacs or something, 'cause you breath stinks! You almost burned the hair outta my nose, just like the time...(Shrek covers his mouth but Donkey continues to talk, so Shrek removes his hand.) ...then I ate some rotten berries. I had strong gases leaking out of my butt that day. SHREK Why are you following me? DONKEY I'll tell you why. (singing) 'Cause I'm all alone, There's no one here beside me, My problems have all gone, There's no one to deride me, But you gotta have faith... SHREK Stop singing! It's no wonder you don't have any friends. DONKEY Wow. Only a true friend would be that cruelly honest. SHREK Listen, little donkey. Take a look at me. What am I? DONKEY (looks all the way up at Shrek) Uh ...really tall? SHREK No! I'm an ogre! You know. "Grab your torch and pitchforks." Doesn't that bother you? DONKEY Nope. SHREK Really? DONKEY Really, really. SHREK Oh. DONKEY Man, I like you. What's you name? SHREK Uh, Shrek. DONKEY Shrek? Well, you know what I like about you, Shrek? You got that kind of I-don't-care-what-nobody-thinks-of-me thing. I like that. I respect that, Shrek. You all right. (They come over a hill and you can see Shrek's cottage.) Whoa! Look at that. Who'd want to live in place like that? SHREK That would be my home. DONKEY Oh! And it is lovely! Just beautiful. You know you are quite a decorator. It's amazing what you've done with such a modest budget. I like that boulder. That is a nice boulder. I guess you don't entertain much, do you? SHREK I like my privacy. DONKEY You know, I do too. That's another thing we have in common. Like I hate it when you got somebody in your face. You've trying to give them a hint, and they won't leave. There's that awkward silence. (awkward silence) Can I stay with you? SHREK Uh, what? DONKEY Can I stay with you, please? SHREK (sarcastically) Of course! DONKEY Really? SHREK No. DONKEY Please! I don't wanna go back there! You don't know what it's like to be considered a freak. (pause while he looks at Shrek) Well, maybe you do. But that's why we gotta stick together. You gotta let me stay! Please! Please! SHREK Okay! Okay! But one night only. DONKEY Ah! Thank you! (he runs inside the cottage) SHREK What are you...? (Donkey hops up onto a chair.) No! No! DONKEY This is gonna be fun! We can stay up late, swappin' manly stories, and in the mornin' I'm makin' waffles. SHREK Oh! DONKEY Where do, uh, I sleep? SHREK (irritated) Outside! DONKEY Oh, well, I guess that's cool. I mean, I don't know you, and you don't know me, so I guess outside is best, you know. Here I go. Good night. (Shrek slams the door.) (sigh) I mean, I do like the outdoors. I'm a donkey. I was born outside. I'll just be sitting by myself outside, I guess, you know. By
+              - paragraph [ref=e514]: Your request was blocked by our moderation system.
+              - generic [ref=e515]:
+                - generic [ref=e516]: portrait
+                - generic [ref=e517]: •
+                - generic [ref=e518]: 12s
+                - generic [ref=e519]: •
+                - generic [ref=e520]: standard
+              - generic [ref=e522]:
+                - generic [ref=e523]: "Cookie ID:"
+                - code [ref=e524]: f354c645-cf28-44ff-8d8c-db387ebf213e
+            - generic [ref=e526]:
+              - generic [ref=e527]:
+                - generic [ref=e528]:
+                  - img [ref=e529]
+                  - text: Failed
+                - generic [ref=e534]: 12h ago
+              - paragraph [ref=e536]: SHREK Written by William Steig & Ted Elliott SHREK Once upon a time there was a lovely princess. But she had an enchantment upon her of a fearful sort which could only be broken by love's first kiss. She was locked away in a castle guarded by a terrible fire-breathing dragon. Many brave knights had attempted to free her from this dreadful prison, but non prevailed. She waited in the dragon's keep in the highest room of the tallest tower for her true love and true love's first kiss. (laughs) Like that's ever gonna happen. What a load of - (toilet flush) Allstar - by Smashmouth begins to play. Shrek goes about his day. While in a nearby town, the villagers get together to go after the ogre. NIGHT - NEAR SHREK'S HOME MAN1 Think it's in there? MAN2 All right. Let's get it! MAN1 Whoa. Hold on. Do you know what that thing can do to you? MAN3 Yeah, it'll grind your bones for it's bread. Shrek sneaks up behind them and laughs. SHREK Yes, well, actually, that would be a giant. Now, ogres, oh they're much worse. They'll make a suit from your freshly peeled skin. MEN No! SHREK They'll shave your liver. Squeeze the jelly from your eyes! Actually, it's quite good on toast. MAN1 Back! Back, beast! Back! I warn ya! (waves the torch at Shrek.) Shrek calmly licks his fingers and extinguishes the torch. The men shrink back away from him. Shrek roars very loudly and long and his breath extinguishes all the remaining torches until the men are in the dark. SHREK This is the part where you run away. (The men scramble to get away. He laughs.) And stay out! (looks down and picks up a piece of paper. Reads.) "Wanted. Fairy tale creatures."(He sighs and throws the paper over his shoulder.) THE NEXT DAY There is a line of fairy tale creatures. The head of the guard sits at a table paying people for bringing the fairy tale creatures to him. There are cages all around. Some of the people in line are Peter Pan, who is carrying Tinkerbell in a cage, Gipetto who's carrying Pinocchio, and a farmer who is carrying the three little pigs. GUARD All right. This one's full. Take it away! Move it along. Come on! Get up! HEAD GUARD Next! GUARD (taking the witch's broom) Give me that! Your flying days are over. (breaks the broom in half) HEAD GUARD That's 20 pieces of silver for the witch. Next! GUARD Get up! Come on! HEAD GUARD Twenty pieces. LITTLE BEAR (crying) This cage is too small. DONKEY Please, don't turn me in. I'll never be stubborn again. I can change. Please! Give me another chance! OLD WOMAN Oh, shut up. (jerks his rope) DONKEY Oh! HEAD GUARD Next! What have you got? GIPETTO This little wooden puppet. PINOCCHIO I'm not a puppet. I'm a real boy. (his nose grows) HEAD GUARD Five shillings for the possessed toy. Take it away. PINOCCHIO Father, please! Don't let them do this! Help me! Gipetto takes the money and walks off. The old woman steps up to the table. HEAD GUARD Next! What have you got? OLD WOMAN Well, I've got a talking donkey. HEAD GUARD Right. Well, that's good for ten shillings, if you can prove it. OLD WOMAN Oh, go ahead, little fella. Donkey just looks up at her. HEAD GUARD Well? OLD WOMAN Oh, oh, he's just...he's just a little nervous. He's really quite a chatterbox. Talk, you boneheaded dolt... HEAD GUARD That's it. I've heard enough. Guards! OLD WOMAN No, no, he talks! He does. (pretends to be Donkey) I can talk. I love to talk. I'm the talkingest damn thing you ever saw. HEAD GUARD Get her out of my sight. OLD WOMAN No, no! I swear! Oh! He can talk! The guards grab the old woman and she struggles with them. One of her legs flies out and kicks Tinkerbell out of Peter Pan's hands, and her cage drops on Donkey's head. He gets sprinkled with fairy dust and he's able to fly. DONKEY Hey! I can fly! PETER PAN He can fly! 3 LITTLE PIGS He can fly! HEAD GUARD He can talk! DONKEY Ha, ha! That's right, fool! Now I'm a flying, talking donkey. You might have seen a housefly, maybe even a superfly but I bet you ain't never seen a donkey fly. Ha, ha! (the pixie dust begins to wear off) Uh-oh. (he begins to sink to the ground.) He hits the ground with a thud. HEAD GUARD Seize him! (Donkey takes of running.) After him! GUARDS He's getting away! Get him! This way! Turn! Donkey keeps running and he eventually runs into Shrek. Literally. Shrek turns around to see who bumped into him. Donkey looks scared for a moment then he spots the guards coming up the path. He quickly hides behind Shrek. HEAD GUARD You there. Ogre! SHREK Aye? HEAD GUARD By the order of Lord Farquaad I am authorized to place you both under arrest and transport you to a designated resettlement facility. SHREK Oh, really? You and what army? He looks behind the guard and the guard turns to look as well and we see that the other men have run off. The guard tucks tail and runs off. Shrek laughs and goes back about his business and begins walking back to his cottage. DONKEY Can I say something to you? Listen, you was really, really, really somethin' back here. Incredible! SHREK Are you talkin' to...(he turns around and Donkey is gone) me? (he turns back around and Donkey is right in front of him.) Whoa! DONKEY Yes. I was talkin' to you. Can I tell you that you that you was great back here? Those guards! They thought they was all of that. Then you showed up, and bam! They was trippin' over themselves like babes in the woods. That really made me feel good to see that. SHREK Oh, that's great. Really. DONKEY Man, it's good to be free. SHREK Now, why don't you go celebrate your freedom with your own friends? Hmm? DONKEY But, uh, I don't have any friends. And I'm not goin' out there by myself. Hey, wait a minute! I got a great idea! I'll stick with you. You're mean, green, fightin' machine. Together we'll scare the spit out of anybody that crosses us. Shrek turns and regards Donkey for a moment before roaring very loudly. DONKEY Oh, wow! That was really scary. If you don't mind me sayin', if that don't work, your breath certainly will get the job done, 'cause you definitely need some Tic Tacs or something, 'cause you breath stinks! You almost burned the hair outta my nose, just like the time...(Shrek covers his mouth but Donkey continues to talk, so Shrek removes his hand.) ...then I ate some rotten berries. I had strong gases leaking out of my butt that day. SHREK Why are you following me? DONKEY I'll tell you why. (singing) 'Cause I'm all alone, There's no one here beside me, My problems have all gone, There's no one to deride me, But you gotta have faith... SHREK Stop singing! It's no wonder you don't have any friends. DONKEY Wow. Only a true friend would be that cruelly honest. SHREK Listen, little donkey. Take a look at me. What am I? DONKEY (looks all the way up at Shrek) Uh ...really tall? SHREK No! I'm an ogre! You know. "Grab your torch and pitchforks." Doesn't that bother you? DONKEY Nope. SHREK Really? DONKEY Really, really. SHREK Oh. DONKEY Man, I like you. What's you name? SHREK Uh, Shrek. DONKEY Shrek? Well, you know what I like about you, Shrek? You got that kind of I-don't-care-what-nobody-thinks-of-me thing. I like that. I respect that, Shrek. You all right. (They come over a hill and you can see Shrek's cottage.) Whoa! Look at that. Who'd want to live in place like that? SHREK That would be my home. DONKEY Oh! And it is lovely! Just beautiful. You know you are quite a decorator. It's amazing what you've done with such a modest budget. I like that boulder. That is a nice boulder. I guess you don't entertain much, do you? SHREK I like my privacy. DONKEY You know, I do too. That's another thing we have in common. Like I hate it when you got somebody in your face. You've trying to give them a hint, and they won't leave. There's that awkward silence. (awkward silence) Can I stay with you? SHREK Uh, what? DONKEY Can I stay with you, please? SHREK (sarcastically) Of course! DONKEY Really? SHREK No. DONKEY Please! I don't wanna go back there! You don't know what it's like to be considered a freak. (pause while he looks at Shrek) Well, maybe you do. But that's why we gotta stick together. You gotta let me stay! Please! Please! SHREK Okay! Okay! But one night only. DONKEY Ah! Thank you! (he runs inside the cottage) SHREK What are you...? (Donkey hops up onto a chair.) No! No! DONKEY This is gonna be fun! We can stay up late, swappin' manly stories, and in the mornin' I'm makin' waffles. SHREK Oh! DONKEY Where do, uh, I sleep? SHREK (irritated) Outside! DONKEY Oh, well, I guess that's cool. I mean, I don't know you, and you don't know me, so I guess outside is best, you know. Here I go. Good night. (Shrek slams the door.) (sigh) I mean, I do like the outdoors. I'm a donkey. I was born outside. I'll just be sitting by myself outside, I guess, you know. By
+              - paragraph [ref=e538]: Your request was blocked by our moderation system.
+              - generic [ref=e539]:
+                - generic [ref=e540]: portrait
+                - generic [ref=e541]: •
+                - generic [ref=e542]: 12s
+                - generic [ref=e543]: •
+                - generic [ref=e544]: standard
+              - generic [ref=e546]:
+                - generic [ref=e547]: "Cookie ID:"
+                - code [ref=e548]: f354c645-cf28-44ff-8d8c-db387ebf213e
+            - generic [ref=e550]:
+              - generic [ref=e551]:
+                - generic [ref=e552]:
+                  - img [ref=e553]
+                  - text: Completed
+                - generic [ref=e556]:
+                  - generic [ref=e557]:
+                    - img [ref=e558]
+                    - text: 5m 7s
+                  - generic [ref=e561]: 12h ago
+              - paragraph [ref=e563]: A cinematic, high-definition close-up of a fluffy ginger tabby cat sitting on a sunlit wooden floor. The cat looks directly into the camera, opens its mouth wide, and lets out a clear, expressive 'meow.' You can see the vibration of its whiskers and the texture of its pink tongue. Soft morning light creates a warm glow around its fur. High-fidelity audio of a crisp, melodic meow.
+              - generic [ref=e566]: Your browser does not support the video tag.
+              - generic [ref=e567]:
+                - generic [ref=e568]: landscape
+                - generic [ref=e569]: •
+                - generic [ref=e570]: 8s
+                - generic [ref=e571]: •
+                - generic [ref=e572]: standard
+              - generic [ref=e574]:
+                - generic [ref=e575]: "Cookie ID:"
+                - code [ref=e576]: f354c645-cf28-44ff-8d8c-db387ebf213e
+            - generic [ref=e578]:
+              - generic [ref=e579]:
+                - generic [ref=e580]:
+                  - img [ref=e581]
+                  - text: Completed
+                - generic [ref=e584]:
+                  - generic [ref=e585]:
+                    - img [ref=e586]
+                    - text: 5m 7s
+                  - generic [ref=e589]: 12h ago
+              - paragraph [ref=e591]: A cinematic, high-definition close-up of a fluffy ginger tabby cat sitting on a sunlit wooden floor. The cat looks directly into the camera, opens its mouth wide, and lets out a clear, expressive 'meow.' You can see the vibration of its whiskers and the texture of its pink tongue. Soft morning light creates a warm glow around its fur. High-fidelity audio of a crisp, melodic meow.
+              - generic [ref=e594]: Your browser does not support the video tag.
+              - generic [ref=e595]:
+                - generic [ref=e596]: landscape
+                - generic [ref=e597]: •
+                - generic [ref=e598]: 8s
+                - generic [ref=e599]: •
+                - generic [ref=e600]: standard
+              - generic [ref=e602]:
+                - generic [ref=e603]: "Cookie ID:"
+                - code [ref=e604]: f354c645-cf28-44ff-8d8c-db387ebf213e
+          - button "Load More (20 remaining)" [ref=e606] [cursor=pointer]
+  - alert [ref=e607]
+```
