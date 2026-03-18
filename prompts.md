@@ -7,7 +7,7 @@
 > Utilizing the available skills and MCP, explore the page "https://previz-engine-m1mm9ayva-valid.vercel.app/" and create an app definition document and User stories for the main functionalities of the app.
 
 ---
-
+                                                                                                                                                                                    
 ## 2. Test Plan
 
 > Based on the definitions create a Test plan following the ISTQB standards.
@@ -49,3 +49,7 @@
 ## 8. Bug Report
 
 > Create a bug file called Bugs_report.md and document all issues found in the automation execution using a generic bug template with Summary, Steps to reproduce, Actual Result, Expected Results and Evidences, the evidences should be a link to the actual image, create a copy of the evidences into a /evidence folder
+
+## 9. Exploratory test
+
+> Execute a full exploratory test, review all the current functionalities and edge cases. Test as if you are in a UAT environment. Create all the bugs found following the bug-reporter skill guideline.
